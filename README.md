@@ -3,7 +3,7 @@ CS Final Project (high school)
 
 ## About
 
-Jime The Axe Man was my final project for Mr. Hurley's Computer Science my junior year of high school.
+Jime The Axe Man was my final project for Mr. Hurley's Computer Science class, my junior year of high school.
 
 I was the sole programmer on a team of four people. The other three people were artists. One of them made the character sprites. One of them made the environment art (all in the last week of the semester while high on vicodin after getting his wisdom teeth out. Yes, I'm talking about you, Jake <3). The third one played Minesweeper the whole semester and didn't do any work (for what it's worth, he did become extremely good at Minesweeper).
 
