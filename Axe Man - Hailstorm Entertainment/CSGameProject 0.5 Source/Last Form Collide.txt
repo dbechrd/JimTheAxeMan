@@ -1,0 +1,13 @@
+If cChar.X + cChar.Width > 800 Then
+            'NEWFORM
+            'previousLevel = 1.3
+            'Unload Me
+            'frmLevel1d.Show
+            Call showUserText("Further levels currently under construction.", 2000)
+            charCollision = True
+        ElseIf cChar.X < 0 Then
+            'NEWFORM
+            previousLevel = 1.4
+            Unload Me
+            frmLevel1b.Show
+        End If

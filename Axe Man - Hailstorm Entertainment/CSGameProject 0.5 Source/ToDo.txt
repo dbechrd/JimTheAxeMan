@@ -1,0 +1,22 @@
+TODO:
+
+DONE - Platform collision code!!!!!!!!!1111111111111111111111111
+Scrapped - Map pieces from enemies (chest appears after death.. next level loads after item obtained)
+Wtf? - Implement "Saving The Day"
+
+
+RANDOM JUNK TO Maybe DO:
+=====================================================
+
+Maybe?
+	Add new arrays for objects other than chests
+		Finish programming Health Objects
+
+
+=====================================================
+
+Original Source Code:
+
+?D:R,yp97[fwem,po'pij7vynhj ;KJN;OYFTOU'A;OIIOYRNKUSOE;UM;OFYMTMV SYR;UJO YUBMB;IOUNZFLKFU;O YZSDHT
+
+=====================================================

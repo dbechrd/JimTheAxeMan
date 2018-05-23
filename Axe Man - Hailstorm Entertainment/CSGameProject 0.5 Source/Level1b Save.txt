@@ -1,0 +1,50 @@
+
+If (previousLevel = 1.1) Then
+        Unload frmLevel1a
+    ElseIf (previousLevel = 1.3) Then
+        Unload frmLevel1c
+    End If
+
+=================================================
+
+If Level1x2_IntroText = False Then
+                Dim DeclareItemArray As Integer
+                Call showUserText("Level One - The Forest", 3000)
+                charHealth = 80
+                enemy1Health = 100
+                money = 0
+                timeleft = 7314
+                'NEWFORM
+                ReDim Level1x2_Items(0 To i)
+                'NEWFORM
+                For DeclareItemArray = 0 To UBound(Level1x2_Items)
+                    'NEWFORM
+                    Level1x2_Items(DeclareItemArray).FileName = ItemObj(DeclareItemArray).Caption
+                    Level1x2_Items(DeclareItemArray).ItemType = Mid(ItemObj(DeclareItemArray).Caption, 1, Len(ItemObj(DeclareItemArray).Caption) - 4)
+                    'Level1x1_Items(DeclareItemArray).ItemType = ItemObj(DeclareItemArray).Caption
+                    Level1x2_Items(DeclareItemArray).Used = False
+                Next DeclareItemArray
+            End If
+
+=================================================
+
+If cChar.X + cChar.Width > 800 Then
+            'Call showUserText("Further levels currently under construction.", 2000)
+            'NEWFORM
+            previousLevel = 1.2
+            Unload Me
+            'NEWFORM
+            frmLevel1c.Show
+        ElseIf cChar.X < 0 Then
+            'NEWFORM
+            previousLevel = 1.2
+            Unload Me
+            'NEWFORM
+            frmLevel1a.Show
+        End If
+
+=================================================
+
+
+
+=================================================

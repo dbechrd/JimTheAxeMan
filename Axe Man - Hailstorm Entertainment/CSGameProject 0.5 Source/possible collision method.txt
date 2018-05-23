@@ -1,0 +1,17 @@
+1 = Left
+2 = Right
+4 = Top
+8 = Bottom
+
+
+1  = 1   L
+2  = 2   R
+4  = 4   T
+14 = 5   LT
+24 = 6   RT
+8  = 8   B
+18 = 9   LB
+28 = 10  RB
+
+12 = 3   LR //Don't Need
+48 = 12  TB //Don't Need

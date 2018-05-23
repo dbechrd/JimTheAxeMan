@@ -1,0 +1,46 @@
+        y
+
+  |-----------|
+  |           |
+  |           |
+x |  Player   | x + w
+  |           |
+  |           |
+  |-----------|
+
+      y + h
+
+=========================
+
+        y
+
+  |-----------|
+  |           |
+  |           |
+x |  Object   | x + w
+  |           |
+  |           |
+  |-----------|
+
+      y + h
+
+=========================
+
+'Horizontal Collision
+
+If Player.X < Object.X + Object.W And Player.X + Player.W > Object.X Then
+
+	'Vertical Collision
+
+	If Player.Y < Object.Y + Object.H And Player.Y + Player.H > Object.Y Then
+
+		Collision!!
+
+	EndIf
+
+EndIf
+
+0 = None
+1 = Screen
+2 = Left/Right
+3 = Left/Right && Top/Bottom
